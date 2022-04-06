@@ -1,0 +1,69 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #f9dcc4;
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+  width: 100%;
+  height: 2rem;
+  border-radius: 4px;
+  padding: 0 1rem;
+  border: 1px solid #fff;;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus{
+  outline: none;
+  background-color: #f5ebe0;
+}
+label{
+  padding: 0 0 0.25rem 0;
+  font-weight: bold;
+}
+
+.form_input{
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+select{
+  width: 100%;
+  height: 2rem;
+  padding: 0 1rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom_file_upload {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+button{
+  margin-right: 2rem;
+  padding: 0.25rem 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.btnSubmit{
+  background-color: #43aa8b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnReset{
+  background-color: #ff0a54;
+  color: #fff;
+  cursor: pointer;
+}
