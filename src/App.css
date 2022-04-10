@@ -12,3 +12,10 @@
 h1{
   margin-bottom: 2rem;
 }
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #f9dcc4;
+  border-radius: 4px;
+}
